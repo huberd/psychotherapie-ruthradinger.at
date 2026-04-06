@@ -1,0 +1,498 @@
+html:root,
+[data-hsx*="light"],
+html:root[data-hsx*="dark"] [data-hsx*="inverted"] {
+
+    --hsx-site-background: #f5f2ee;
+    --hsx-body-text-color: #2e2e2e;
+    --hsx-headings-color: #1f3a37;
+    --hcl-on-brand: #ffffff;
+    --hcl-brand-1: #edf0f0;
+    --hcl-brand-2: #e5eceb;
+    --hcl-brand-3: #d6e6e4;
+    --hcl-brand-4: #c5dfdc;
+    --hcl-brand-5: #b3d6d1;
+    --hcl-brand-6: #9dc9c3;
+    --hcl-brand-7: #87b6b0;
+    --hcl-brand-8: #6f9d97;
+    --hcl-brand-9: #1f3a37;
+    --hcl-brand-10: #314d4a;
+    --hcl-brand-11: #37645f;
+    --hcl-brand-12: #1f3a37;
+    --hcl-brand-emphasis: #1f3a37;
+    --hcl-brand-1a: #b2e1ff1e;
+    --hcl-brand-2a: #0698c211;
+    --hcl-brand-3a: #0696a121;
+    --hcl-brand-4a: #01919332;
+    --hcl-brand-5a: #018a8345;
+    --hcl-brand-6a: #0180775c;
+    --hcl-brand-7a: #016d6473;
+    --hcl-brand-8a: #0158508c;
+    --hcl-brand-9a: #00201ddf;
+    --hcl-brand-10a: #002421cc;
+    --hcl-brand-11a: #003b36c6;
+    --hcl-brand-12a: #00201ddf;
+    --hcl-on-neutral: #ffffff;
+    --hcl-neutral-1: #fdfdfc;
+    --hcl-neutral-2: #f9f9f8;
+    --hcl-neutral-3: #f1f0ef;
+    --hcl-neutral-4: #e9e8e6;
+    --hcl-neutral-5: #e2e1de;
+    --hcl-neutral-6: #dad9d6;
+    --hcl-neutral-7: #cfceca;
+    --hcl-neutral-8: #bcbbb5;
+    --hcl-neutral-9: #000000;
+    --hcl-neutral-10: #1e1e1e;
+    --hcl-neutral-11: #63635e;
+    --hcl-neutral-12: #21201c;
+    --hcl-neutral-emphasis: #000000;
+    --hcl-neutral-1a: hsl(60 89.3% 18.3% / 0.012);
+    --hcl-neutral-2a: hsl(60 78.1% 9.0% / 0.028);
+    --hcl-neutral-3a: hsl(60 99.0% 3.9% / 0.051);
+    --hcl-neutral-4a: hsl(60 88.9% 5.9% / 0.075);
+    --hcl-neutral-5a: hsl(60 86.0% 6.9% / 0.099);
+    --hcl-neutral-6a: hsl(60 93.2% 5.2% / 0.122);
+    --hcl-neutral-7a: hsl(60 98.3% 5.1% / 0.157);
+    --hcl-neutral-8a: hsl(51 94.1% 6.0% / 0.244);
+    --hcl-neutral-9a: #000000;
+    --hcl-neutral-10a: #1e1e1e;
+    --hcl-neutral-11a: hsl(45 93.7% 1.5% / 0.577);
+    --hcl-neutral-12a: hsl(60 98.0% 0.7% / 0.906);
+    --hcl-on-primary: #fff;
+    --hcl-primary-1: #edf0f0;
+    --hcl-primary-2: #e5eceb;
+    --hcl-primary-3: #d6e6e4;
+    --hcl-primary-4: #c5dfdc;
+    --hcl-primary-5: #b3d6d1;
+    --hcl-primary-6: #9dc9c3;
+    --hcl-primary-7: #87b6b0;
+    --hcl-primary-8: #6f9d97;
+    --hcl-primary-9: #1f3a37;
+    --hcl-primary-10: #314d4a;
+    --hcl-primary-11: #37645f;
+    --hcl-primary-12: #1f3a37;
+    --hcl-primary-emphasis: #1f3a37;
+    --hcl-primary-1a: #b2e1ff1e;
+    --hcl-primary-2a: #0698c211;
+    --hcl-primary-3a: #0696a121;
+    --hcl-primary-4a: #01919332;
+    --hcl-primary-5a: #018a8345;
+    --hcl-primary-6a: #0180775c;
+    --hcl-primary-7a: #016d6473;
+    --hcl-primary-8a: #0158508c;
+    --hcl-primary-9a: #00201ddf;
+    --hcl-primary-10a: #002421cc;
+    --hcl-primary-11a: #003b36c6;
+    --hcl-primary-12a: #00201ddf;
+    --hcl-on-secondary: #fff;
+    --hcl-secondary-1: #f0efee;
+    --hcl-secondary-2: #eceae8;
+    --hcl-secondary-3: #e4e0dc;
+    --hcl-secondary-4: #dcd7d1;
+    --hcl-secondary-5: #d5cec6;
+    --hcl-secondary-6: #cdc4bb;
+    --hcl-secondary-7: #c0b8af;
+    --hcl-secondary-8: #aca39b;
+    --hcl-secondary-9: #807870;
+    --hcl-secondary-10: #736b63;
+    --hcl-secondary-11: #59524a;
+    --hcl-secondary-12: #29241e;
+    --hcl-secondary-emphasis: #59524a;
+    --hcl-secondary-1a: #2173ee06;
+    --hcl-secondary-2a: #1026550a;
+    --hcl-secondary-3a: #1d0d0914;
+    --hcl-secondary-4a: #2e1b0720;
+    --hcl-secondary-5a: #381d012b;
+    --hcl-secondary-6a: #3c1d0237;
+    --hcl-secondary-7a: #2e190144;
+    --hcl-secondary-8a: #240f0159;
+    --hcl-secondary-9a: #180c0087;
+    --hcl-secondary-10a: #170b0095;
+    --hcl-secondary-11a: #130a00b0;
+    --hcl-secondary-12a: #0c0700df;
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+[data-hsx*="invert"] {
+
+    --hsx-site-background: 2e2e2e;
+    --hsx-body-text-color: #f5f2ee;
+    --hsx-headings-color: #1f3a37;
+    --hcl-brand-1: #fff;
+    --hcl-brand-2: #e8f2f1;
+    --hcl-brand-3: #daf0ed;
+    --hcl-brand-4: #c9e8e4;
+    --hcl-brand-5: #bddfdb;
+    --hcl-brand-6: #b3d9d4;
+    --hcl-brand-7: #aad5d0;
+    --hcl-brand-8: #a4d4ce;
+    --hcl-brand-9: #1f3a37;
+    --hcl-brand-10: #314d4a;
+    --hcl-brand-11: #adddd7;
+    --hcl-brand-12: #c0eae4;
+    --hcl-brand-emphasis: #1f3a37;
+    --hcl-neutral-1: #111110;
+    --hcl-neutral-2: #191918;
+    --hcl-neutral-3: #222221;
+    --hcl-neutral-4: #2a2a28;
+    --hcl-neutral-5: #31312e;
+    --hcl-neutral-6: #3b3a37;
+    --hcl-neutral-7: #494844;
+    --hcl-neutral-8: #62605b;
+    --hcl-neutral-9: #ffffff;
+    --hcl-neutral-10: #aeaeae;
+    --hcl-neutral-11: #b5b3ad;
+    --hcl-neutral-12: #eeeeec;
+    --hcl-neutral-emphasis: #ffffff;
+    --hcl-on-neutral: #000000;
+    --hcl-primary-emphasis: #1f3a37;
+    --hcl-primary-1: #fff;
+    --hcl-primary-2: #e8f2f1;
+    --hcl-primary-3: #daf0ed;
+    --hcl-primary-4: #c9e8e4;
+    --hcl-primary-5: #bddfdb;
+    --hcl-primary-6: #b3d9d4;
+    --hcl-primary-7: #aad5d0;
+    --hcl-primary-8: #a4d4ce;
+    --hcl-primary-9: #1f3a37;
+    --hcl-primary-10: #314d4a;
+    --hcl-primary-11: #adddd7;
+    --hcl-primary-12: #c0eae4;
+    --hcl-primary-1a: #00000000;
+    --hcl-primary-2a: #006f6417;
+    --hcl-primary-3a: #00988325;
+    --hcl-primary-4a: #00938036;
+    --hcl-primary-5a: #00847442;
+    --hcl-primary-6a: #00806f4c;
+    --hcl-primary-7a: #00817255;
+    --hcl-primary-8a: #0187765b;
+    --hcl-primary-9a: #001f1be0;
+    --hcl-primary-10a: #00231fce;
+    --hcl-primary-11a: #00968352;
+    --hcl-primary-12a: #00aa923f;
+    --hcl-secondary-emphasis: #d4cbc3;
+    --hcl-secondary-1: #fff;
+    --hcl-secondary-2: #f3f1f0;
+    --hcl-secondary-3: #e9e6e3;
+    --hcl-secondary-4: #dbd7d3;
+    --hcl-secondary-5: #cec9c4;
+    --hcl-secondary-6: #c3bdb7;
+    --hcl-secondary-7: #beb6ae;
+    --hcl-secondary-8: #c2bab1;
+    --hcl-secondary-9: #beb6ad;
+    --hcl-secondary-10: #b3aba2;
+    --hcl-secondary-11: #d4cbc3;
+    --hcl-secondary-12: #f1ebe5;
+    --hcl-secondary-1a: #00000000;
+    --hcl-secondary-2a: #3311000f;
+    --hcl-secondary-3a: #371c001c;
+    --hcl-secondary-4a: #2f18002c;
+    --hcl-secondary-5a: #2c16013b;
+    --hcl-secondary-6a: #2b160048;
+    --hcl-secondary-7a: #331a0051;
+    --hcl-secondary-8a: #381e004e;
+    --hcl-secondary-9a: #351c0052;
+    --hcl-secondary-10a: #2f19005d;
+    --hcl-secondary-11a: #4922003c;
+    --hcl-secondary-12a: #763b001a;
+}
+
+:root {
+    /*Theme Headspin*/
+
+    --hsx-page-width: 1310px;
+    --hsx-min-offset: 20px;
+    --hsx-page-gap: 20px;
+    /*Breakdance connector*/
+    --hsx-bleed-offset: max(calc(((100vw - (var(--bde-section-width))) / 2) + var(--bde-section-horizontal-padding)), calc(var(--bde-section-horizontal-padding) + 5px));
+}
+
+:root {
+    --hsx-page-display: grid;
+}
+
+@media (max-width: 1406px) {
+    body {
+        --hsx-page-display: flex;
+    }
+}
+
+::selection {
+    background-color: #ffffff;
+    color: #000;
+    -webkit-text-fill-color: #000;
+}
+
+:root {
+    --headspin-theme-API: eyJ0aGVtZSI6ImxpZ2h0In0=;
+}
+
+[data-hsx*="overlay"] *:not(button, [class*=button]) {
+    color: white !important;
+    text-shadow: 1px 1px 0px black,
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 0px 0px black,
+        -1px 0px 0px black,
+        0px 1px 0px black,
+        0px -1px 0px black,
+        2px 2px 0px black,
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black,
+        2px 0px 0px black,
+        -2px 0px 0px black,
+        0px 2px 0px black,
+        0px -2px 0px black;
+}
+
+:root {
+    --hsx-safe-overlay: rgba(0, 0, 0, .6)
+}
+
+[data-hsx-brand="neutral"] {
+    --hcl-brand-1: var(--hcl-neutral-1);
+    --hcl-brand-1a: var(--hcl-neutral-1a);
+    --hcl-brand-2: var(--hcl-neutral-2);
+    --hcl-brand-2a: var(--hcl-neutral-2a);
+    --hcl-brand-3: var(--hcl-neutral-3);
+    --hcl-brand-3a: var(--hcl-neutral-3a);
+    --hcl-brand-4: var(--hcl-neutral-4);
+    --hcl-brand-4a: var(--hcl-neutral-4a);
+    --hcl-brand-5: var(--hcl-neutral-5);
+    --hcl-brand-5a: var(--hcl-neutral-5a);
+    --hcl-brand-6: var(--hcl-neutral-6);
+    --hcl-brand-6a: var(--hcl-neutral-6a);
+    --hcl-brand-7: var(--hcl-neutral-7);
+    --hcl-brand-7a: var(--hcl-neutral-7a);
+    --hcl-brand-8: var(--hcl-neutral-8);
+    --hcl-brand-8a: var(--hcl-neutral-8a);
+    --hcl-brand-9: var(--hcl-neutral-9);
+    --hcl-brand-9a: var(--hcl-neutral-9a);
+    --hcl-brand-10: var(--hcl-neutral-10);
+    --hcl-brand-10a: var(--hcl-neutral-10a);
+    --hcl-brand-11: var(--hcl-neutral-11);
+    --hcl-brand-11a: var(--hcl-neutral-11a);
+    --hcl-brand-12: var(--hcl-neutral-12);
+    --hcl-brand-12a: var(--hcl-neutral-12a);
+    --hcl-on-brand: var(--hcl-on-neutral);
+    --hcl-brand-emphasis: var(--hcl-neutral-emphasis);
+
+}
+
+[data-hsx-brand="primary"] {
+    --hcl-brand-1: var(--hcl-primary-1);
+    --hcl-brand-1a: var(--hcl-primary-1a);
+    --hcl-brand-2: var(--hcl-primary-2);
+    --hcl-brand-2a: var(--hcl-primary-2a);
+    --hcl-brand-3: var(--hcl-primary-3);
+    --hcl-brand-3a: var(--hcl-primary-3a);
+    --hcl-brand-4: var(--hcl-primary-4);
+    --hcl-brand-4a: var(--hcl-primary-4a);
+    --hcl-brand-5: var(--hcl-primary-5);
+    --hcl-brand-5a: var(--hcl-primary-5a);
+    --hcl-brand-6: var(--hcl-primary-6);
+    --hcl-brand-6a: var(--hcl-primary-6a);
+    --hcl-brand-7: var(--hcl-primary-7);
+    --hcl-brand-7a: var(--hcl-primary-7a);
+    --hcl-brand-8: var(--hcl-primary-8);
+    --hcl-brand-8a: var(--hcl-primary-8a);
+    --hcl-brand-9: var(--hcl-primary-9);
+    --hcl-brand-9a: var(--hcl-primary-9a);
+    --hcl-brand-10: var(--hcl-primary-10);
+    --hcl-brand-10a: var(--hcl-primary-10a);
+    --hcl-brand-11: var(--hcl-primary-11);
+    --hcl-brand-11a: var(--hcl-primary-11a);
+    --hcl-brand-12: var(--hcl-primary-12);
+    --hcl-brand-12a: var(--hcl-primary-12a);
+    --hcl-on-brand: var(--hcl-on-primary);
+    --hcl-brand-emphasis: var(--hcl-primary-emphasis);
+
+}
+
+[data-hsx-brand="secondary"] {
+    --hcl-brand-1: var(--hcl-secondary-1);
+    --hcl-brand-1a: var(--hcl-secondary-1a);
+    --hcl-brand-2: var(--hcl-secondary-2);
+    --hcl-brand-2a: var(--hcl-secondary-2a);
+    --hcl-brand-3: var(--hcl-secondary-3);
+    --hcl-brand-3a: var(--hcl-secondary-3a);
+    --hcl-brand-4: var(--hcl-secondary-4);
+    --hcl-brand-4a: var(--hcl-secondary-4a);
+    --hcl-brand-5: var(--hcl-secondary-5);
+    --hcl-brand-5a: var(--hcl-secondary-5a);
+    --hcl-brand-6: var(--hcl-secondary-6);
+    --hcl-brand-6a: var(--hcl-secondary-6a);
+    --hcl-brand-7: var(--hcl-secondary-7);
+    --hcl-brand-7a: var(--hcl-secondary-7a);
+    --hcl-brand-8: var(--hcl-secondary-8);
+    --hcl-brand-8a: var(--hcl-secondary-8a);
+    --hcl-brand-9: var(--hcl-secondary-9);
+    --hcl-brand-9a: var(--hcl-secondary-9a);
+    --hcl-brand-10: var(--hcl-secondary-10);
+    --hcl-brand-10a: var(--hcl-secondary-10a);
+    --hcl-brand-11: var(--hcl-secondary-11);
+    --hcl-brand-11a: var(--hcl-secondary-11a);
+    --hcl-brand-12: var(--hcl-secondary-12);
+    --hcl-brand-12a: var(--hcl-secondary-12a);
+    --hcl-on-brand: var(--hcl-on-secondary);
+    --hcl-brand-emphasis: var(--hcl-secondary-emphasis);
+
+}
+
+html:root {
+    /*Headspin System*/
+    --hrd-s: 6px;
+    --hrd-m: 8px;
+    --hrd-l: 12px;
+    --hrd-pill: 500px;
+    --hrd-atom: 6px;
+
+}
+
+html:root {
+    /*Headspin System*/
+    --hfs-h0: clamp(3.0625rem, 1.881rem + 3.946vw, 5.25rem);
+    --hfs-h1: clamp(2.4375rem, 1.627rem + 2.706vw, 3.9375rem);
+    --hfs-h2: clamp(1.9375rem, 1.397rem + 1.804vw, 2.9375rem);
+    --hfs-h3: clamp(1.5625rem, 1.191rem + 1.240vw, 2.25rem);
+    --hfs-h4: clamp(1.25rem, 1.014rem + 0.789vw, 1.6875rem);
+    --hfs-h5: clamp(1rem, 0.865rem + 0.451vw, 1.25rem);
+    --hfs-h6: clamp(1rem, 0.865rem + 0.451vw, 1.25rem);
+    --hfs-h-32: clamp(1.375rem, 1.037rem + 1.127vw, 2rem);
+    --hfs-text-50: clamp(2rem, 1.392rem + 2.029vw, 3.125rem);
+    --hfs-text-40: clamp(1.75rem, 1.345rem + 1.353vw, 2.5rem);
+    --hfs-text-36: clamp(1.5rem, 1.095rem + 1.353vw, 2.25rem);
+    --hfs-text-l: clamp(1.25rem, 1.014rem + 0.789vw, 1.6875rem);
+    --hfs-text-25: clamp(1.25rem, 1.081rem + 0.564vw, 1.5625rem);
+    --hfs-text-24: clamp(1.25rem, 1.115rem + 0.451vw, 1.5rem);
+    --hfs-text-body: clamp(1.125rem, 0.990rem + 0.451vw, 1.375rem);
+    --hfs-text-m: clamp(1rem, 0.865rem + 0.451vw, 1.25rem);
+    --hfs-text-16: clamp(0.9375rem, 0.904rem + 0.113vw, 1rem);
+    --hfs-text-s: clamp(0.9375rem, 0.938rem + 0.000vw, 0.9375rem);
+    --hsp-207: clamp(9.375rem, 7.451rem + 6.426vw, 12.9375rem);
+    --hsp-110: clamp(4rem, 2.447rem + 5.186vw, 6.875rem);
+    --hsp-88: clamp(2.625rem, 1.072rem + 5.186vw, 5.5rem);
+    --hsp-85: clamp(4rem, 3.291rem + 2.368vw, 5.3125rem);
+    --hsp-80: clamp(1.25rem, -0.775rem + 6.764vw, 5rem);
+    --hsp-xxl: clamp(3.5625rem, 2.921rem + 2.142vw, 4.75rem);
+    --hsp-64: clamp(2.5rem, 1.690rem + 2.706vw, 4rem);
+    --hsp-60: clamp(2.625rem, 2.017rem + 2.029vw, 3.75rem);
+    --hsp-52: clamp(2rem, 1.325rem + 2.255vw, 3.25rem);
+    --hsp-50: clamp(2.1875rem, 1.681rem + 1.691vw, 3.125rem);
+    --hsp-xl: clamp(2.6875rem, 2.215rem + 1.578vw, 3.5625rem);
+    --hsp-47: clamp(2.125rem, 1.686rem + 1.466vw, 2.9375rem);
+    --hsp-l: clamp(2rem, 1.629rem + 1.240vw, 2.6875rem);
+    --hsp-40: clamp(1.75rem, 1.345rem + 1.353vw, 2.5rem);
+    --hsp-35: clamp(1.25rem, 0.744rem + 1.691vw, 2.1875rem);
+    --hsp-m: clamp(1.5rem, 1.230rem + 0.902vw, 2rem);
+    --hsp-s: clamp(1.125rem, 0.922rem + 0.676vw, 1.5rem);
+    --hsp-xs: clamp(0.8125rem, 0.644rem + 0.564vw, 1.125rem);
+    --hsp-xxs: clamp(0.625rem, 0.524rem + 0.338vw, 0.8125rem);
+    --hsp-page: clamp(1.25rem, 1.250rem + 0.000vw, 1.25rem);
+    --hsp-gap: clamp(1.5rem, 1.297rem + 0.676vw, 1.875rem);
+    --hsp-column-gap: clamp(2.25rem, 0.866rem + 4.622vw, 4.8125rem);
+    --hsp-header: clamp(7.5rem, 6.150rem + 4.510vw, 10rem);
+    --hss-xxl: clamp(10.6875rem, 8.797rem + 6.313vw, 14.1875rem);
+    --hss-xl: clamp(8rem, 6.549rem + 4.848vw, 10.6875rem);
+    --hss-vertical: clamp(3.125rem, 0.087rem + 10.147vw, 8.75rem);
+    --hss-l: clamp(6rem, 4.920rem + 3.608vw, 8rem);
+    --hss-m: clamp(4.5rem, 3.690rem + 2.706vw, 6rem);
+    --hss-s: clamp(3.375rem, 2.767rem + 2.029vw, 4.5rem);
+    --hss-xs: clamp(2.5rem, 2.027rem + 1.578vw, 3.375rem);
+    --hss-xxs: clamp(1.875rem, 1.537rem + 1.127vw, 2.5rem);
+
+}
+
+@supports (font-size: 1cqi) {
+    html:root {
+        --hfs-h0: clamp(3.0625rem, 1.881rem + 3.946cqi, 5.25rem);
+        --hfs-h1: clamp(2.4375rem, 1.627rem + 2.706cqi, 3.9375rem);
+        --hfs-h2: clamp(1.9375rem, 1.397rem + 1.804cqi, 2.9375rem);
+        --hfs-h3: clamp(1.5625rem, 1.191rem + 1.240cqi, 2.25rem);
+        --hfs-h4: clamp(1.25rem, 1.014rem + 0.789cqi, 1.6875rem);
+        --hfs-h5: clamp(1rem, 0.865rem + 0.451cqi, 1.25rem);
+        --hfs-h6: clamp(1rem, 0.865rem + 0.451cqi, 1.25rem);
+        --hfs-h-32: clamp(1.375rem, 1.037rem + 1.127cqi, 2rem);
+        --hfs-text-50: clamp(2rem, 1.392rem + 2.029cqi, 3.125rem);
+        --hfs-text-40: clamp(1.75rem, 1.345rem + 1.353cqi, 2.5rem);
+        --hfs-text-36: clamp(1.5rem, 1.095rem + 1.353cqi, 2.25rem);
+        --hfs-text-l: clamp(1.25rem, 1.014rem + 0.789cqi, 1.6875rem);
+        --hfs-text-25: clamp(1.25rem, 1.081rem + 0.564cqi, 1.5625rem);
+        --hfs-text-24: clamp(1.25rem, 1.115rem + 0.451cqi, 1.5rem);
+        --hfs-text-body: clamp(1.125rem, 0.990rem + 0.451cqi, 1.375rem);
+        --hfs-text-m: clamp(1rem, 0.865rem + 0.451cqi, 1.25rem);
+        --hfs-text-16: clamp(0.9375rem, 0.904rem + 0.113cqi, 1rem);
+        --hfs-text-s: clamp(0.9375rem, 0.938rem + 0.000cqi, 0.9375rem);
+        --hsp-207: clamp(9.375rem, 7.451rem + 6.426cqi, 12.9375rem);
+        --hsp-110: clamp(4rem, 2.447rem + 5.186cqi, 6.875rem);
+        --hsp-88: clamp(2.625rem, 1.072rem + 5.186cqi, 5.5rem);
+        --hsp-85: clamp(4rem, 3.291rem + 2.368cqi, 5.3125rem);
+        --hsp-80: clamp(1.25rem, -0.775rem + 6.764cqi, 5rem);
+        --hsp-xxl: clamp(3.5625rem, 2.921rem + 2.142cqi, 4.75rem);
+        --hsp-64: clamp(2.5rem, 1.690rem + 2.706cqi, 4rem);
+        --hsp-60: clamp(2.625rem, 2.017rem + 2.029cqi, 3.75rem);
+        --hsp-52: clamp(2rem, 1.325rem + 2.255cqi, 3.25rem);
+        --hsp-50: clamp(2.1875rem, 1.681rem + 1.691cqi, 3.125rem);
+        --hsp-xl: clamp(2.6875rem, 2.215rem + 1.578cqi, 3.5625rem);
+        --hsp-47: clamp(2.125rem, 1.686rem + 1.466cqi, 2.9375rem);
+        --hsp-l: clamp(2rem, 1.629rem + 1.240cqi, 2.6875rem);
+        --hsp-40: clamp(1.75rem, 1.345rem + 1.353cqi, 2.5rem);
+        --hsp-35: clamp(1.25rem, 0.744rem + 1.691cqi, 2.1875rem);
+        --hsp-m: clamp(1.5rem, 1.230rem + 0.902cqi, 2rem);
+        --hsp-s: clamp(1.125rem, 0.922rem + 0.676cqi, 1.5rem);
+        --hsp-xs: clamp(0.8125rem, 0.644rem + 0.564cqi, 1.125rem);
+        --hsp-xxs: clamp(0.625rem, 0.524rem + 0.338cqi, 0.8125rem);
+        --hsp-page: clamp(1.25rem, 1.250rem + 0.000cqi, 1.25rem);
+        --hsp-gap: clamp(1.5rem, 1.297rem + 0.676cqi, 1.875rem);
+        --hsp-column-gap: clamp(2.25rem, 0.866rem + 4.622cqi, 4.8125rem);
+        --hsp-header: clamp(7.5rem, 6.150rem + 4.510cqi, 10rem);
+        --hss-xxl: clamp(10.6875rem, 8.797rem + 6.313cqi, 14.1875rem);
+        --hss-xl: clamp(8rem, 6.549rem + 4.848cqi, 10.6875rem);
+        --hss-vertical: clamp(3.125rem, 0.087rem + 10.147cqi, 8.75rem);
+        --hss-l: clamp(6rem, 4.920rem + 3.608cqi, 8rem);
+        --hss-m: clamp(4.5rem, 3.690rem + 2.706cqi, 6rem);
+        --hss-s: clamp(3.375rem, 2.767rem + 2.029cqi, 4.5rem);
+        --hss-xs: clamp(2.5rem, 2.027rem + 1.578cqi, 3.375rem);
+        --hss-xxs: clamp(1.875rem, 1.537rem + 1.127cqi, 2.5rem);
+
+    }
+}
+
+html:root,
+[data-hsx*="light"],
+html:root[data-hsx*="dark"] [data-hsx*="inverted"] {
+
+    --bde-headings-color: var(--hsx-headings-color);
+    --bde-body-text-color: var(--hsx-body-text-color);
+    --bde-background-color: var(--hsx-site-background);
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+    --bde-links-color: var(--hcl-brand-9);
+    --bde-links-color-hover: var(--hcl-brand-10);
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+html:root[data-hsx*="light"] [data-hsx*="invert"] {
+
+    --bde-headings-color: var(--hsx-headings-color) !important;
+    --bde-body-text-color: var(--hsx-body-text-color) !important;
+    --bde-background-color: var(--hsx-site-background) !important;
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+    --bde-links-color: var(--hcl-brand-9);
+    --bde-links-color-hover: var(--hcl-brand-10);
+}
+
+html:root {
+    --bde-h1-font-size: var(--hfs-h1);
+    --bde-h2-font-size: var(--hfs-h2);
+    --bde-h3-font-size: var(--hfs-h3);
+    --bde-h4-font-size: var(--hfs-h4);
+    --bde-h5-font-size: var(--hfs-h5);
+    --bde-h6-font-size: var(--hfs-h6);
+    --bde-body-font-size: var(--hfs-text-m);
+
+}

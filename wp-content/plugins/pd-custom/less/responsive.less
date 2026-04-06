@@ -1,0 +1,142 @@
+@belowSmall: ~"(max-width: 350px)";
+@phone: ~"(max-width: 481px)";
+@abovePhone: ~"(min-width: 482px)";
+@belowMedium: ~"(max-width: 781px)";
+@break768: ~"(min-width: 768px)";
+@sm: ~"(max-width: 993px)";
+@break994: ~"(min-width: 994px)";
+@belowLarge: ~"(max-width: 1199px)";
+@large: ~"(min-width: 1200px)";
+@largeToHuge: ~"(min-width: 1200px) and (max-width: 1439px)";
+@belowHuge: ~"(max-width: 1439px)";
+@huge: ~"(min-width: 1440px)";
+@tablet: ~"(min-width: 482px) and (max-width: 781px)";
+
+
+.phone(@rules){
+    @media (max-width: 479px){
+        @rules();
+    }
+}
+.minPhone(@rules){
+    @media (min-width: 480px){
+        @rules();
+    }
+}
+
+
+.wp_break(@rules){
+    @media (max-width: 599px){
+        @rules();
+    }
+}
+
+.tablet(@rules){
+    @media (max-width: 767px){
+        @rules();
+    }
+}
+
+.minTablet(@rules){
+    @media (min-width: 769px){
+        @rules();
+    }
+}
+
+.cookieDesktop(@rules){
+    @media (min-width: 801px){
+        @rules();
+    }
+}
+
+.mobile(@rules){
+    @media (max-width: 989px){
+        @rules();
+    }
+}
+.desktop(@rules){
+    @media (min-width: 990px){
+        @rules();
+    }
+}
+
+.ipad(@rules){
+    @media (max-width: 1023px){
+        @rules();
+    }
+}
+.minIpad(@rules){
+    @media (min-width: 1024px){
+        @rules();
+    }
+}
+
+.tabletLand(@rules){
+    @media (max-width: 1119px){
+        @rules();
+    }
+}
+
+.laptop(@rules){
+    @media (max-width: 1269px){
+        @rules();
+    }
+}
+
+
+
+.largeDesktop(@rules){
+    @media (min-width: 1440px){
+        @rules();
+    }
+}
+
+.media-custom-max(@width, @rules) {
+    @media screen and (max-width: @width) {
+        @rules();
+    }
+}
+
+.media-custom-min(@width, @rules) {
+    @media screen and (min-width: @width) {
+        @rules();
+    }
+}
+
+.media-custom-min-max(@width-min, @width-max, @rules) {
+    @media screen and (min-width: @width-min) and (max-width: @width-max) {
+        @rules();
+    }
+}
+
+.phoneLS(@rules){
+    @media (max-width: 767px) and (max-height: 600px){
+        @rules();
+    }
+}
+
+.media-custom-min-height(@height, @rules) {
+    @media screen and (min-height: @height) {
+        @rules();
+    }
+}
+.media-custom-max-height(@height, @rules) {
+    @media screen and (max-height: @height) {
+        @rules();
+    }
+}
+.media-custom-min-max-height(@minHeight, @maxHeight, @rules) {
+    @media screen and (min-height: @minHeight) and (max-height: @maxHeight) {
+        @rules();
+    }
+}
+.media-custom-min-width-max-height(@minWidth, @maxHeight, @rules) {
+    @media screen and (min-width: @minWidth) and (max-height: @maxHeight) {
+        @rules();
+    }
+}
+.media-custom-min-max-height-min-width(@minHeight, @maxHeight, @minWidth, @rules) {
+    @media screen and (min-height: @minHeight) and (max-height: @maxHeight) and (min-width: @minWidth) {
+        @rules();
+    }
+}

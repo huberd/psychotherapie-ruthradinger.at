@@ -1,0 +1,25 @@
+body.breakdance #cmplz-document{
+    max-width: 100% !important;
+    &.impressum {
+        > h2, p:last-child{
+            display: none;
+        }
+    }
+    a{
+        text-decoration: none;
+        &:not(.breakdance-menu-link, .button-atom){
+            color: currentColor;
+            &:hover{
+                text-decoration: underline;
+                color: currentColor;
+            }
+        }
+    }
+    h2, h3{
+        letter-spacing: 0;
+    }
+    .cmplz-dropdown summary{
+        background-color: transparent;
+        padding: 8px 10px 6px;
+    }
+}

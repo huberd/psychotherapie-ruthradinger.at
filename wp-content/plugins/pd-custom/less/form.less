@@ -1,0 +1,27 @@
+body.breakdance{
+    form#ContactForm{
+        .breakdance-form-field{
+            .ipad({
+                &.breakdance-form-field--text, &.breakdance-form-field--email, &.breakdance-form-field--tel{
+                    grid-column-start: span 5;
+                }
+            });
+            
+            .tablet({
+                &.breakdance-form-field--text, &.breakdance-form-field--email, &.breakdance-form-field--tel{
+                    grid-column-start: span 6;
+                }
+                &.breakdance-form-field--html{
+                    display: none;
+                }
+            });
+        }
+        .ipad({
+            gap: calc(var(--hsp-64) / 2);
+        });
+        .phone({
+            display: flex;
+            flex-direction: column;
+        })
+    }
+}

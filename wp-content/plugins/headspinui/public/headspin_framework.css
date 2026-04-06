@@ -1,0 +1,182 @@
+html:root,
+[data-hsx*="light"] {
+
+    --hcl-on-brand: #ffffff;
+    --hcl-brand-1: #fbfdff;
+    --hcl-brand-2: #f4faff;
+    --hcl-brand-3: #e6f4fe;
+    --hcl-brand-4: #d5efff;
+    --hcl-brand-5: #c2e5ff;
+    --hcl-brand-6: #acd8fc;
+    --hcl-brand-7: #8ec8f6;
+    --hcl-brand-8: #5eb1ef;
+    --hcl-brand-9: #0090ff;
+    --hcl-brand-10: #0588f0;
+    --hcl-brand-11: #0d74ce;
+    --hcl-brand-12: #113264;
+    --hcl-on-neutral: #fff;
+    --hcl-neutral-1: #fdfcfd;
+    --hcl-neutral-2: #faf9fb;
+    --hcl-neutral-3: #f2eff3;
+    --hcl-neutral-4: #eae7ec;
+    --hcl-neutral-5: #e3dfe6;
+    --hcl-neutral-6: #dbd8e0;
+    --hcl-neutral-7: #d0cdd7;
+    --hcl-neutral-8: #bcbac7;
+    --hcl-neutral-9: #8e8c99;
+    --hcl-neutral-10: #84828e;
+    --hcl-neutral-11: #65636d;
+    --hcl-neutral-12: #211f26;
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+[data-hsx*="invert"] {
+
+    --hcl-brand-1: #0d1520;
+    --hcl-brand-2: #111927;
+    --hcl-brand-3: #0d2847;
+    --hcl-brand-4: #003362;
+    --hcl-brand-5: #004074;
+    --hcl-brand-6: #104d87;
+    --hcl-brand-7: #205d9e;
+    --hcl-brand-8: #2870bd;
+    --hcl-brand-9: #0090ff;
+    --hcl-brand-10: #3b9eff;
+    --hcl-brand-11: #70b8ff;
+    --hcl-brand-12: #c2e6ff;
+    --hcl-neutral-1: #121113;
+    --hcl-neutral-2: #1a191b;
+    --hcl-neutral-3: #232225;
+    --hcl-neutral-4: #2b292d;
+    --hcl-neutral-5: #323035;
+    --hcl-neutral-6: #3c393f;
+    --hcl-neutral-7: #49474e;
+    --hcl-neutral-8: #625f69;
+    --hcl-neutral-9: #6f6d78;
+    --hcl-neutral-10: #7c7a85;
+    --hcl-neutral-11: #b5b2bc;
+    --hcl-neutral-12: #eeeef0;
+}
+
+:root {
+    /*Theme Headspin*/
+
+    --hsx-page-width: 1366px;
+    --hsx-min-offset: 20px;
+    --hsx-page-gap: 20px;
+    /*Breakdance connector*/
+    --bde-section-width: 1406px !important;
+    --bde-section-horizontal-padding: 20px !important;
+    --bde-column-gap: 20px !important;
+    --hsx-bleed-offset: max(calc(((100vw - (var(--bde-section-width))) / 2) + var(--bde-section-horizontal-padding)), calc(var(--bde-section-horizontal-padding) + 5px));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    line-height: calc(4px + 2ex)
+}
+
+html:root,
+[data-hsx*="light"] {
+
+    --bde-headings-color: var(--hcl-neutral-12);
+    --bde-body-text-color: var(--hcl-neutral-11);
+    --bde-background-color: var(--hcl-neutral-1);
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+[data-hsx*="invert"] {
+
+    --bde-headings-color: var(--hcl-neutral-12);
+    --bde-body-text-color: var(--hcl-neutral-11);
+    --bde-background-color: var(--hcl-neutral-1);
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+}
+
+html:root {
+    --hrd-s: 6px;
+    --hrd-m: 8px;
+    --hrd-l: 12px;
+    --hrd-pill: 500px;
+    --hrd-atom: 6px;
+    --hrd-5xl: 6px;
+    --bde-h1-font-size: var(--hfs-h1);
+    --bde-h2-font-size: var(--hfs-h2);
+    --bde-h3-font-size: var(--hfs-h3);
+    --bde-h4-font-size: var(--hfs-h4);
+    --bde-h5-font-size: var(--hfs-h5);
+    --bde-h6-font-size: var(--hfs-h6);
+    --bde-body-font-size: var(--hfs-text-m);
+
+}
+
+html:root {
+    --hfs-h0: clamp(4.75rem, 0.354rem + -0.190vw, 3.0625rem);
+    --hfs-h1: clamp(3.5625rem, 0.261rem + -0.127vw, 2.4375rem);
+    --hfs-h2: clamp(2.6875rem, 0.193rem + -0.085vw, 1.9375rem);
+    --hfs-h3: clamp(2rem, 0.140rem + -0.049vw, 1.5625rem);
+    --hfs-h4: clamp(1.5rem, 0.102rem + -0.028vw, 1.25rem);
+    --hfs-h5: clamp(1.125rem, 0.075rem + -0.014vw, 1rem);
+    --hfs-h6: clamp(1.125rem, 0.075rem + -0.014vw, 1rem);
+    --hfs-text-l: clamp(1.5rem, 0.102rem + -0.028vw, 1.25rem);
+    --hfs-text-m: clamp(1.125rem, 0.075rem + -0.014vw, 1rem);
+    --hfs-text-s: clamp(0.875rem, 0.055rem + 0.000vw, 0.875rem);
+    --hfs-text--m: clamp(0.875rem, 0.055rem + 0.000vw, 0.875rem);
+    --hsp-xxl: clamp(4.75rem, 0.337rem + -0.134vw, 3.5625rem);
+    --hsp-xl: clamp(3.5625rem, 0.252rem + -0.099vw, 2.6875rem);
+    --hsp-l: clamp(2.6875rem, 0.191rem + -0.078vw, 2rem);
+    --hsp-m: clamp(2rem, 0.142rem + -0.056vw, 1.5rem);
+    --hsp-s: clamp(1.5rem, 0.106rem + -0.042vw, 1.125rem);
+    --hsp-xs: clamp(1.125rem, 0.081rem + -0.035vw, 0.8125rem);
+    --hsp-xxs: clamp(0.8125rem, 0.057rem + -0.021vw, 0.625rem);
+    --hss-xxl: clamp(14.1875rem, 1.005rem + -0.395vw, 10.6875rem);
+    --hss-xl: clamp(10.6875rem, 0.759rem + -0.303vw, 8rem);
+    --hss-l: clamp(8rem, 0.568rem + -0.225vw, 6rem);
+    --hss-m: clamp(6rem, 0.426rem + -0.169vw, 4.5rem);
+    --hss-s: clamp(4.5rem, 0.319rem + -0.127vw, 3.375rem);
+    --hss-xs: clamp(3.375rem, 0.240rem + -0.099vw, 2.5rem);
+    --hss-xxs: clamp(2.5rem, 0.177rem + -0.070vw, 1.875rem);
+
+}
+
+@supports (font-size: 1cqi) {
+    html:root {
+        --hfs-h0: clamp(4.75rem, 0.354rem + -0.190cqi, 3.0625rem);
+        --hfs-h1: clamp(3.5625rem, 0.261rem + -0.127cqi, 2.4375rem);
+        --hfs-h2: clamp(2.6875rem, 0.193rem + -0.085cqi, 1.9375rem);
+        --hfs-h3: clamp(2rem, 0.140rem + -0.049cqi, 1.5625rem);
+        --hfs-h4: clamp(1.5rem, 0.102rem + -0.028cqi, 1.25rem);
+        --hfs-h5: clamp(1.125rem, 0.075rem + -0.014cqi, 1rem);
+        --hfs-h6: clamp(1.125rem, 0.075rem + -0.014cqi, 1rem);
+        --hfs-text-l: clamp(1.5rem, 0.102rem + -0.028cqi, 1.25rem);
+        --hfs-text-m: clamp(1.125rem, 0.075rem + -0.014cqi, 1rem);
+        --hfs-text-s: clamp(0.875rem, 0.055rem + 0.000cqi, 0.875rem);
+        --hfs-text--m: clamp(0.875rem, 0.055rem + 0.000cqi, 0.875rem);
+        --hsp-xxl: clamp(4.75rem, 0.337rem + -0.134cqi, 3.5625rem);
+        --hsp-xl: clamp(3.5625rem, 0.252rem + -0.099cqi, 2.6875rem);
+        --hsp-l: clamp(2.6875rem, 0.191rem + -0.078cqi, 2rem);
+        --hsp-m: clamp(2rem, 0.142rem + -0.056cqi, 1.5rem);
+        --hsp-s: clamp(1.5rem, 0.106rem + -0.042cqi, 1.125rem);
+        --hsp-xs: clamp(1.125rem, 0.081rem + -0.035cqi, 0.8125rem);
+        --hsp-xxs: clamp(0.8125rem, 0.057rem + -0.021cqi, 0.625rem);
+        --hss-xxl: clamp(14.1875rem, 1.005rem + -0.395cqi, 10.6875rem);
+        --hss-xl: clamp(10.6875rem, 0.759rem + -0.303cqi, 8rem);
+        --hss-l: clamp(8rem, 0.568rem + -0.225cqi, 6rem);
+        --hss-m: clamp(6rem, 0.426rem + -0.169cqi, 4.5rem);
+        --hss-s: clamp(4.5rem, 0.319rem + -0.127cqi, 3.375rem);
+        --hss-xs: clamp(3.375rem, 0.240rem + -0.099cqi, 2.5rem);
+        --hss-xxs: clamp(2.5rem, 0.177rem + -0.070cqi, 1.875rem);
+
+    }
+}

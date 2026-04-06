@@ -1,0 +1,91 @@
+# Translation of Plugins - Page scroll to id - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Page scroll to id - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-11 16:02:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Page scroll to id - Stable (latest release)\n"
+
+#: includes/ps2id-plugin-admin-notice.php:47
+#: includes/ps2id-plugin-admin-notice.php:49
+#: includes/ps2id-plugin-admin-notice.php:50
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis verwerfen"
+
+#: malihu-pagescroll2id.php:126 malihu-pagescroll2id.php:131
+msgid "<div class=\"error\"><p><strong>"
+msgstr "<div class=\"error\"><p><strong>"
+
+#: includes/class-malihu-pagescroll2id-widget.php:42
+msgid "Optional element selector to use for highlighting (e.g. #another-id)"
+msgstr "Optionaler Elementauswahl für die Hervorhebung (z.&nbsp;B. #andere-id)"
+
+#: includes/class-malihu-pagescroll2id-widget.php:40
+msgid "Highlight target selector:"
+msgstr "Markiere die Zielauswahl:"
+
+#: includes/class-malihu-pagescroll2id-widget.php:37
+msgid "Unique identifier without spaces (e.g. my-id)"
+msgstr "Einzigartige ID ohne Leerzeichen (z.&nbsp;B. meine-id)"
+
+#: includes/class-malihu-pagescroll2id-widget.php:35
+msgid "id:"
+msgstr "ID:"
+
+#: includes/class-malihu-pagescroll2id-widget.php:17
+msgid "Single target element (anchor point)"
+msgstr "Einzelnes Zielelement (Ankerpunkt)"
+
+#: includes/class-malihu-pagescroll2id-widget.php:16
+msgid "Page scroll to id target"
+msgstr "Seitenlauf zur Ziel-ID"
+
+#. Author URI of the plugin
+#: malihu-pagescroll2id.php
+msgid "http://manos.malihu.gr"
+msgstr "http://manos.malihu.gr"
+
+#. Author of the plugin
+#: malihu-pagescroll2id.php
+msgid "malihu"
+msgstr "malihu"
+
+#. Description of the plugin
+#: malihu-pagescroll2id.php
+msgid "Page scroll to id is an easy-to-use jQuery plugin that enables animated (smooth) page scrolling to specific id within the document."
+msgstr "Page scroll to id ist ein einfach zu verwendendes jQuery-Plugin, das (flüssige) Seitenlaufanimationen zu definierten IDs im Dokument ermöglicht."
+
+#. Plugin URI of the plugin
+#: malihu-pagescroll2id.php
+msgid "http://manos.malihu.gr/page-scroll-to-id"
+msgstr "http://manos.malihu.gr/page-scroll-to-id"
+
+#. Plugin Name of the plugin
+#: malihu-pagescroll2id.php
+msgid "Page scroll to id"
+msgstr "Page scroll to id"
+
+#: includes/admin.php:13
+msgid "Click to toggle"
+msgstr "Zum Umschalten klicken"
+
+#: includes/admin.php:12
+msgid "Reset to default"
+msgstr "Auf Standard zurücksetzen"
+
+#: includes/admin.php:12
+msgid "Delete all and reset to default"
+msgstr "Alle löschen und auf Standard zurücksetzen"
+
+#: includes/admin.php:11
+msgid "More actions"
+msgstr "Weitere Aktionen"
+
+#: includes/admin.php:10
+msgid "Add instance"
+msgstr "Instanz hinzufügen"

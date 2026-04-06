@@ -1,0 +1,77 @@
+{
+  "name": "headspinui",
+  "version": "2.0.0",
+  "description": "Headspin node pack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "copilot": "npx webpack --entry ./admin/assets/js/imports.mjs --output-path ./admin/assets/js/",
+    "postcss": "npx webpack --entry ./vendors/postcss/postcss.mjs --output-path ./vendors/postcss/",
+    "zip1": "mkdir headspinui && zip -r  headspinui.zip headspinui/ . -x 'node_modules/**' -x '*.git/**' -x '*.mjs/**' ",
+    "zip2": "cd '/Users/renatocorluka/Local Sites/breakdance2/app/public/wp-content/plugins' && zip -vr headspin_vzipx.zip */headspinui . -x 'headspinui/node_modules/**' -x '*.git/**' -x '*.mjs/**' && zip -r headspinui_.zip headspinui/ && cd '/Users/renatocorluka/Local Sites/breakdance2/app/public/wp-content/plugins/headspinui' ",
+    "zip": "cd '/Users/renatocorluka/Local Sites/breakdance2/app/public/wp-content/plugins' && zip -vr headspinui_.zip headspinui/ -x 'headspinui/node_modules/**' '*.git/**' '*.mjs/**'  && cd '/Users/renatocorluka/Local Sites/breakdance2/app/public/wp-content/plugins/headspinui' "
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "skip"
+  },
+  "keywords": [
+    "Keykeyword"
+  ],
+  "author": "Renato",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "@codemirror/lang-css": "^6.2.1",
+    "@codemirror/lang-sass": "^6.0.2",
+    "@codemirror/lint": "^6.8.1",
+    "@codemirror/search": "^6.5.6",
+    "@codemirror/view": "^6.28.1",
+    "@csstools/postcss-media-minmax": "^1.1.6",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/path-browserify": "^1.0.2",
+    "@uiw/codemirror-theme-vscode": "^4.22.2",
+    "apcach": "^0.6.4",
+    "autoprefixer": "^10.4.19",
+    "codemirror": "^6.0.1",
+    "cssnano": "^7.0.3",
+    "path": "^0.12.7",
+    "postcss": "^8.4.38",
+    "postcss-circle": "^1.1.0",
+    "postcss-custom-selectors": "^7.1.10",
+    "postcss-each": "^1.1.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-focus": "^7.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-loader": "^8.1.1",
+    "postcss-minify": "^1.1.0",
+    "postcss-mixins": "^10.0.1",
+    "postcss-nested": "^6.0.1",
+    "postcss-nested-vars": "^1.0.0",
+    "postcss-preset-env": "^9.5.14",
+    "postcss-sassy-mixins": "^2.1.0",
+    "postcss-simple-vars": "^7.0.1",
+    "precss": "^4.0.0",
+    "process": "^0.11.10",
+    "radix-theme-generator": "^0.1.1",
+    "rollup": "^4.18.0",
+    "stream": "^0.0.2",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "thememirror": "^2.0.1",
+    "vite": "^6.2.5",
+    "w3c-css-validator": "^1.3.2"
+  },
+  "devDependencies": {
+    "@csstools/postcss-conditional-values": "^3.0.1",
+    "postcss-custom-media": "^10.0.6",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
